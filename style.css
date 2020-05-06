@@ -1,0 +1,33 @@
+/*https://www.google.es/maps/@40.1350478,59.7712023,875126m/data=!3m1!1e3*/  
+
+.Cita {
+ background-color: red;
+}
+.Regular!{
+    background-color: aqua;
+    width: 430px;
+    height: 430px;
+    text-align: center;
+}
+body {
+  margin: 0;
+  background-color: #24292e;
+  color: #f2f0ec;
+  line-height: 1.5;
+  font-size: 100%;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }

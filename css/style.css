@@ -73,9 +73,7 @@ html, body{
 }
 .footer-div{
     display: flex;
-    flex-direction: row;
-    
-    
+    flex-direction: row;    
 }
 #hover-word {
     color: wheat;

@@ -1,0 +1,141 @@
+/*https://www.google.es/maps/@40.1350478,59.7712023,875126m/data=!3m1!1e3*/  
+
+.general{
+    display: flex;
+   /* background-color: firebrick;*/
+    flex-direction: column;
+    justify-content:center;
+    -webkit-transform:rotate(4deg);
+    -moz-transform:rotate(4deg);
+    -o-transform: rotate(4deg);
+    -ms-transform:rotate(4deg);
+    transform: rotate(4deg);
+    
+}
+.fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    margin-left: 10%;
+    text-align: center;
+    width: 75%
+}
+.cita {
+/*    background-color: red;*/
+    font-style: italic;
+}
+.regular{
+    background-color: #123122;        
+    border-radius: 10%;
+}
+
+.hidden-text{
+    display:none;
+}
+#hidden-flex{
+    color: #0e0f0e;
+    flex-flow:wrap;
+    width: 20px;
+    height: 418px;
+    overflow: hidden;
+    margin-top: -50%;
+    display: none;
+        
+}
+h2{
+    text-align: center;
+}
+body {
+  margin: 0;
+  background-color: #0e0f0e;
+  color: darkred;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family:  "Gill Sans Extrabold", Helvetica, sans-serif;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.class { 
+    text-align: center;
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#hover-word {
+    color: darkred;
+}
+#hover-word:hover {
+    color: red;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+img{
+   
+    background-color: transparent;
+    background-image: url(https://i.ibb.co/g638RNT/hoverlocoton.png);
+    width: 156px;
+    height: 163px;
+    background-repeat: no-repeat;
+}
+img:hover{
+    background-image: url(https://i.ibb.co/Bgvb9qy/melocoton.png);
+}
+@media (max-width: 600px) {
+      .hidden-flex {
+          display: flex;
+          justify-content: center;
+          position: absolute;
+          top: 50%;
+          left: 40%;
+          
+          
+      }
+        body{
+            background-color: #FFC0CB;
+            color: #FFC0CB;
+        }
+        .regular{
+            background-color: #FFC0CB;
+        }
+        #hidden-text{
+            display: block;
+            color: red;
+
+        }
+        .general{
+        display: none;
+       /* background-color: firebrick;*/
+        flex-direction: column;
+        justify-content:center;
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform: rotate(0deg);
+
+        }
+        .hidden-text{
+            display: contents;
+            color: white;
+            font-size: 26px;
+            align-items: baseline;
+            text-align: center;
+        }
+    a{
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        color: white;
+    }
+}

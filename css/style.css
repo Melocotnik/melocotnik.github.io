@@ -1,4 +1,3 @@
-/*https://www.google.es/maps/@40.1350478,59.7712023,875126m/data=!3m1!1e3*/  
 .content{
     display: flex;
     justify-content: center;
@@ -7,7 +6,6 @@
 }
 .general{
     display: flex;
-   /* background-color: firebrick;*/
     flex-direction: column;
     justify-content:center;
     
@@ -22,7 +20,6 @@
     width: 75%
 }
 .cita {
-/*    background-color: red;*/
     font-style: italic;
 }
 .regular{

@@ -1,11 +1,109 @@
 /*https://www.google.es/maps/@40.1350478,59.7712023,875126m/data=!3m1!1e3*/  
-
-.cita {
- background-color: red;
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
 }
-        .regular{
-            background-color: red;
-        }
+.general{
+    display: flex;
+   /* background-color: firebrick;*/
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.fact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2%;
+    margin-left: 10%;
+    text-align: center;
+    width: 75%
+}
+.cita {
+/*    background-color: red;*/
+    font-style: italic;
+}
+.regular{
+    background-color: #123122;        
+    border-radius: 10%;
+}
+
+.class{
+    width: 60%;
+}
 .hidden-text{
     background-color: yellow;
+    
+    writing-mode:tb-rl;
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+    
+    
+}
+#hidden-flex{
+    color: #0e0f0e;
+    flex-flow:wrap;
+    width: 20px;
+    height: 418px;
+    overflow: hidden;
+    margin-top: -50%;
+        
+}
+h2{
+    text-align: center;
+}
+body {
+  margin: 0;
+  background-color: #0e0f0e;
+  color: wheat;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family:  "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+html, body{
+    
+    width: 100%;
+    height: 100%;
+}
+.class { 
+    text-align: center;
+}
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#hover-word {
+    color: wheat;
+}
+#hover-word:hover {
+    color: #f0cb86;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+}
+img{
+   
+    background-color: transparent;
+    background-image: url(https://i.ibb.co/g638RNT/hoverlocoton.png);
+    width: 156px;
+    height: 163px;
+    background-repeat: no-repeat;
+}
+img:hover{
+    background-image: url(https://i.ibb.co/Bgvb9qy/melocoton.png);
+}
+@media (max-width: 1200px) {
+  #hidden-flex {
+      margin-top: -550px;
+      overflow: hidden;
+      
+  }
 }

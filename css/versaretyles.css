@@ -1,8 +1,6 @@
-/*https://www.google.es/maps/@40.1350478,59.7712023,875126m/data=!3m1!1e3*/  
 
 .general{
     display: flex;
-   /* background-color: firebrick;*/
     flex-direction: column;
     justify-content:center;
     -webkit-transform:rotate(4deg);
@@ -22,7 +20,6 @@
     width: 75%
 }
 .cita {
-/*    background-color: red;*/
     font-style: italic;
 }
 .regular{
@@ -69,10 +66,10 @@ html, body{
     
 }
 #hover-word {
-    color: darkred;
+    color: #8b0000;
 }
 #hover-word:hover {
-    color: red;
+    color: #ae0000;
 }
 .imageContainer{
     display: flex;
@@ -113,7 +110,6 @@ img:hover{
         }
         .general{
         display: none;
-       /* background-color: firebrick;*/
         flex-direction: column;
         justify-content:center;
         -webkit-transform:rotate(0deg);

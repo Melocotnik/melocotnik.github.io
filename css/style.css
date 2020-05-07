@@ -34,8 +34,6 @@
     width: 60%;
 }
 .hidden-text{
-    background-color: yellow;
-    
     writing-mode:tb-rl;
     white-space:nowrap;
     display:block;
